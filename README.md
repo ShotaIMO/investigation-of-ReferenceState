@@ -3,13 +3,15 @@
 ## Introduction
 This program is boiled for the following requests.
   ・Whether Reference State can include and verify in the transaction or not.
+  
   ・Whether Reference State’s backchain can be confirmed in the transaction or not.
   
 In order to investigate these matter, I added sort of process to https://github.com/sbir3japan/corda-dev-traning-sbir3japan.git.
 
 ## Note 
 This program focused only on IOU Issue and added the process of adding Reference State.
-Reference State are not included in Transfer and Settle Flow
+
+Reference State are not included in Transfer and Settle Flow.
 
 ## Newly added files
 ### Put under "contracts\src\main\java\net\corda\training\states"
