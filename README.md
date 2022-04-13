@@ -2,6 +2,7 @@
 
 ## Introduction
 This program is boiled for the following requests.
+
   ・Whether Reference State can include and verify in the transaction or not.
   
   ・Whether Reference State’s backchain can be confirmed in the transaction or not.
@@ -9,9 +10,9 @@ This program is boiled for the following requests.
 In order to investigate these matter, I added sort of process to https://github.com/sbir3japan/corda-dev-traning-sbir3japan.git.
 
 ## Note 
-This program focused only on IOU Issue and added the process of adding Reference State.
+*This program focused only on IOU Issue and added the process of adding Reference State.*
 
-Reference State are not included in Transfer and Settle Flow.
+*Reference State are not included in Transfer and Settle Flow.*
 
 ## Newly added files
 ### Put under "contracts\src\main\java\net\corda\training\states"
@@ -19,6 +20,7 @@ Reference State are not included in Transfer and Settle Flow.
   
 ### Put under "contracts\src\main\java\net\corda\training\contracts"
   AddressContract.java: Defined the Publish command that issues AddressState and 
+  
                         the Move command that updates AddressState, and added restrictions on them.
     
 ### Put under "workflows\src\main\java\net\corda\training\flow"
