@@ -8,24 +8,24 @@ This program is boiled for the following requests.
 In order to investigate these matter, I added sort of process to https://github.com/sbir3japan/corda-dev-traning-sbir3japan.git.
 
 ## Newly added files
-  AddressState.java
+  AddressState.java:
     State corresponding to Ref.State.
     
-  AddressContract.java
+  AddressContract.java:
     Defined the Publish command that issues AddressState and the Move command that updates AddressState, and added restrictions on them.
     
-  PublishFlow.java
+  PublishFlow.java:
     Flow for publishing AddressState.
     
-  MoveFlow.java
+  MoveFlow.java:
     Flow for updating AddressState.
     
   
 ## Changes to existing files
-  IOUContract.java
+  IOUContract.java:
     Added process to include AddressState.
     
-  IOUIssueFlow.java
+  IOUIssueFlow.java:
     Added constraints regarding AddressState.
 
 ## Procedure
