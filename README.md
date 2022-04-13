@@ -41,6 +41,6 @@ In order to investigate these matter, I added sort of process to https://github.
   4. Run IOUIssueFlow.java  ※You should confirm Transaction Id
   5. Run the following command:
 
-      run internalFindVerifiedTransaction txnId: Transaction Id
+          run internalFindVerifiedTransaction txnId: Transaction Id
   6. Then looking at the item about Reference State, you will find that the transaction contains the latest Ref.State hash.
   
