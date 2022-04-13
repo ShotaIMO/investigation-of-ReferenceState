@@ -7,6 +7,10 @@ This program is boiled for the following requests.
   
 In order to investigate these matter, I added sort of process to https://github.com/sbir3japan/corda-dev-traning-sbir3japan.git.
 
+## Note 
+This program focused only on IOU Issue and added the process of adding Reference State.
+Reference State are not included in Transfer and Settle Flow
+
 ## Newly added files
 ### Put under "contracts\src\main\java\net\corda\training\states"
   AddressState.java: State corresponding to Ref.State.
