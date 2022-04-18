@@ -1,7 +1,7 @@
 # investigation-of-ReferenceState
 
 ## Introduction
-This program is boiled for the following requests.
+This program is builed for the following requests.
 
   ・Whether Reference State can include and verify in the transaction or not.
   
