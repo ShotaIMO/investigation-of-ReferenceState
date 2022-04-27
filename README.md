@@ -32,7 +32,8 @@ In order to investigate these matter, I added sort of process to https://github.
   IOUContract.java: Added process to include AddressState.
     
 ### Put under "workflows\src\main\java\net\corda\training\flow"
-  IOUIssueFlow.java: Added constraints regarding AddressState.
+  IOUIssueFlow.java:    Added constraints regarding AddressState.
+  IOUTransferFlow.java: Added constraints regarding AddressState.
 
 ## Procedure
   1. Run the nodes.
